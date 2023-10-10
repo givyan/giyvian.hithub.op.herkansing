@@ -1,0 +1,296 @@
+#first {
+    background-color: rgb(0, 0, 0);
+    color: rgb(28, 27, 26);
+    background-image: url(FutureHome/img/background.roomcrop.jpg);
+    background-size: cover;
+    background-position: center top;
+    font-family: 'Young Serif', serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: rgb(255, 255, 255);
+    font-family: 'Young Serif', serif;
+    margin: 0;
+    padding: 1em;
+}
+
+
+nav a {
+    color: rgb(255, 255, 255);
+    border: solid 2px;
+    text-decoration: none;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-color: transparent;
+    font-family: 'Young Serif', serif;
+    font-size: small;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+a:hover {
+    border-color: rgb(25, 94, 35);
+    transition: border-color 0.7s ease;
+}
+
+.headerlanding {
+    display: flex;
+    margin-top: 20em;
+    border-bottom: 1px solid;
+    margin-bottom: 33em;
+    border-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlanding img {
+    margin-left: 1em;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid;
+    margin-bottom: 7em;
+    border-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-left: 1em;
+    width: 15em;
+}
+
+blockquote {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 5em;
+    max-width: 60%;
+    font-style: italic;
+    font-size: x-large;
+}
+
+blockquote img {
+    max-width: 9em;
+    margin: 2em;
+}
+
+section {
+    border-top: 1px solid;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section p {
+    width: 80%;
+}
+
+span {
+    color: rgb(240, 87, 52);
+}
+
+ol li:nth-child(4) span {
+    color: rgb(50, 50, 146);
+}
+
+
+.esthetica span:first-child {
+    color: rgb(165, 114, 42);
+}
+
+.esthetica span:nth-child(2) {
+    color: rgb(112, 111, 117);
+}
+
+.esthetica {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.esthetica img {
+    display: flex;
+    width: 40em;
+    height: 25em;
+    margin: 1em;
+}
+
+.currentpage {
+    border: solid 2px;
+    text-decoration: none;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-color: rgb(23, 74, 18);
+    background-color: rgb(25, 120, 39);
+}
+
+#kopje {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.livingroompf {
+    border-radius: 100%;
+}
+
+.bedroompf {
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+
+.container {
+    display: flex;
+}
+
+article {
+    width: 100%;
+    background-color: rgb(56, 57, 57);
+    padding: 2em;
+    border: 1px solid;
+}
+
+article img {
+    width: 25em;
+    height: 25em;
+}
+
+.terug {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 87, 52)
+}
+
+.terug:hover {
+    background-color: rgb(26, 103, 33);
+    transition: background-color 0.7s ease-in-out;
+}
+
+#sectioncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tegelcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tegelcontainer img{
+    height: 16em;
+}
+
+.tegel{
+    padding: 2em;
+    background-color: rgb(59, 59, 59);
+    width: 15em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tegel img{
+    width: 15em;
+}
+
+.tegel p{
+    width: 100%;
+}
+
+.tegelcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tegel2{
+    padding: 2em;
+    background-color: rgb(59, 59, 59);
+    width: 35em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+
+.tegel2 img{
+    width: 35em;
+}
+
+.tegel2 p{
+    width: 100%;
+}
+
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: #3e3e3e;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 17em;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e84a27;
+}
+
+.add-to-cart {
+    background-color: #66707a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+#h1shop{
+    display: flex;
+    justify-content: center;
+}
